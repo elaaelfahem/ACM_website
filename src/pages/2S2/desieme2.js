@@ -10,8 +10,7 @@ const SecondSemester2 = () => {
             <h1 className="title">Select Your Academic Year</h1>
             <p className="subtitle">SELECT YOUR ACADEMIC YEAR TO ACCESS COURSE CONTENT:</p>
           </div>
-          
-          <div className="years-grid">
+           <div className="years-grid">
             <div className="year-card">
               <div className="year-image-container">
               </div>
