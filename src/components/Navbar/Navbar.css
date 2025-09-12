@@ -98,3 +98,16 @@
   color: #fff;
   background-color: grey;
 }
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+  
+  .contact-grid {
+    padding: 1.2rem;
+  }
+  
+  .contact-info p, .developers-info li {
+    padding: 0.7rem 1rem;
+  }
+}

@@ -49,10 +49,7 @@ const Navbar = () => {
         </ScrollLink>
       </div>
 
-      <div className="search">
-        <input placeholder="Search..." type="text" />
-        <button type="submit">Go</button>
-      </div>
+
 
       <img src={Enstab} alt="logoenstab" className="logo" />
     </nav>
@@ -60,3 +57,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+/*      <div className="search">
+        <input placeholder="Search..." type="text" />
+        <button type="submit">Go</button>
+      </div>*/
