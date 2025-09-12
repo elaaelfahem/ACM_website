@@ -1,0 +1,107 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Changed from center to flex-start */
+  align-items: center;
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  padding: 3rem;
+  padding-top: 2rem;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.intoacm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  color: black;
+  z-index: 1;
+}
+
+.hello {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Introtext {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.sosacm {
+  color: #e50303;
+}
+
+.Introtext2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background: white;
+  color: #e50303;
+  border: 2px solid #e50303;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background: #e50303;
+  color: white;
+}
+
+.introimg {
+  flex: 1;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+@media screen and (max-width: 840px) {
+  .intro {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .intoacm {
+    width: 100%;
+    align-items: center;
+  }
+
+  .introimg {
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .Introtext {
+    font-size: 2.5rem;
+  }
+
+  .hello {
+    font-size: 1.5rem;
+  }
+
+  .Introtext2 {
+    font-size: 0.9rem;
+  }
+}
+.btn:hover {
+    background: red;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,100 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+/* ACM Logo */
+.ACMlogo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+  transition: transform 0.2s;
+}
+
+.ACMlogo:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar links */
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.2s;
+}
+
+/* Hover effect */
+.desktopMenuListItem:hover {
+  color: #e50303;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #e50303;
+}
+
+/* Active link (works for both react-scroll and react-router-dom NavLink) */
+.desktopMenuListItem.active {
+  color: #e50303;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #e50303;
+}
+
+/* ENSTAB logo */
+.logo {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Search box */
+.search {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: black; /* input text color */
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  outline: none;
+}
+
+.search button[type="submit"] {
+  background-color: #e50303;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.3s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: grey;
+}

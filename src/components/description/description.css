@@ -1,0 +1,53 @@
+.sos-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sos-header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: rgb(30, 30, 30);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.sos-subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+.sos-divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.sos-feature {
+  margin-bottom: 3rem;
+}
+
+.sos-feature-title {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.sos-feature-number {
+  font-weight: bold;
+  color: black;
+}
+
+.sos-feature-description {
+  color: #333;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
