@@ -45,13 +45,13 @@ const Algo = () => {
                   <h4>Chapitre 1</h4>
                   <li><a href="https://docs.google.com/presentation/d/1HNmo30vpRmIEpa9JJXLErb1tuFfC0E-_/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Bases de programmation C</a>
                   <h4>Chapitre 2</h4>
-                  <a href="https://docs.google.com/presentation/d/1k5TXeOVwhoGgmXIXNp87oRnTyN75EFK5/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Tableaux</a>
+                  <a href="https://drive.google.com/file/d/1HzkKdV64v50T5o5y-ermzAVOOFsCm5oK/view?usp=sharing" target='_blank' rel="noopener noreferrer">Les Tableaux</a>
                   <h4>Chapitre 3</h4>
-                  <a href="https://docs.google.com/presentation/d/1V3j1yHhad6z2rBQsH1PLJZcKEFRqnn1j/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Pointeurs</a>
+                  <a href="https://drive.google.com/file/d/1GkoD3IkoFvaTFWGEVT0MakxVKrgMU-yJ/view?usp=sharing" target='_blank' rel="noopener noreferrer">Les Pointeurs</a>
                   <h4>Chapitre 4 </h4>
-                  <a href="https://docs.google.com/presentation/d/1O8p4bDPgeqJ6ySvgwfCNk2fDbV_ihGZc/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Chaines de Caracteres</a>
+                  <a href="https://drive.google.com/file/d/1EdUFYK84AGdQTVNRdE-v_NW_fb8CK3xg/view?usp=sharing" target='_blank' rel="noopener noreferrer">Les Chaines de Caracteres</a>
                   <h4>Chapitre 5</h4>
-                  <a href="https://docs.google.com/presentation/d/1JKZ71i_uw9anuoITledl9RYpRiPhJTUM/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Fonctions</a>
+                  <a href="https://drive.google.com/file/d/1EdUFYK84AGdQTVNRdE-v_NW_fb8CK3xg/view?usp=sharing" target='_blank' rel="noopener noreferrer">Les Fonctions</a>
                   <h4>Chapitre 6</h4>
                   <a href="https://docs.google.com/presentation/d/1D3qGze-AOsL1mstjT2zx58a0O3FdXukE/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Structures</a>
                 </li>
@@ -97,6 +97,8 @@ const Algo = () => {
               <h2>EXAMENS</h2>
               <ul className="resource-links">
                 <li><a href='https://drive.google.com/file/d/1tKPMA_osKbuCacpNuvaimFRUnwUo6Wek/view?usp=sharing'>Examen 21-22</a></li>
+                <li><a href='https://drive.google.com/file/d/1Rfsv7xoInYI_v4xiivIDtwNrQjd0rg6h/view?usp=sharing'>Examen 20-21</a></li>
+                <li><a href='https://drive.google.com/file/d/1gNJiZdB0H_OIg5eIzkyjUBQFGKjrg_pE/view?usp=sharing'>Examen 20-21 (corrigee)</a></li>
               </ul>
             </div>
           </div>

@@ -40,8 +40,8 @@ const FirstSemester = () => {
           <h2 className="course-title">TECH.DE L'ING</h2>
           <img src={tech} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Circuit et systemes electriques</Link></li>
-            <li><Link to="/matiere">Metrologie pour l’ingénieur</Link></li>
+            <li><Link to="/circuit">Circuit et systemes electriques</Link></li>
+            <li><Link to="/metro">Metrologie pour l’ingénieur</Link></li>
             <li><Link to="/mecanique">Systemes Mecanique pour la Robotique</Link></li>
           </ul>
         </div>
@@ -51,9 +51,9 @@ const FirstSemester = () => {
           <img src={tech} alt="phy" className="course-icon" />
           <ul className="course-topics">
             <Link to="/matiere"><li>Anglais 1</li></Link>
-            <Link to="/matiere"><li>Comptabilite</li></Link>
-            <Link to="/matiere"><li>Gestion d'entreprise</li></Link>
-            <Link to="/matiere"><li>Techniques de communication</li></Link>
+            <Link to="/comptabilite"><li>Comptabilite</li></Link>
+            <Link to="/gestion"><li>Gestion d'entreprise</li></Link>
+            <Link to="/communication"><li>Techniques de communication</li></Link>
           </ul>
         </div>
       </div>

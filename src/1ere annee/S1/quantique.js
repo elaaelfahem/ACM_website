@@ -8,7 +8,7 @@ import devoirsImg from '../../assets/DS.png';
 import tdimg from '../../assets/td.png';
 import background from '../../assets/back1.png';
 
-const Circuit = () => {
+const quantique = () => {
   return (
     <section className="archive-section" style={{ backgroundImage: `url(${background})` }}>
       <div className="subject-resources">
@@ -24,18 +24,13 @@ const Circuit = () => {
               <h2>COURSES</h2>
               <ul className="resource-links">
                 <li>
-                  <h4>Chapitre 1</h4>
-                  <a href="https://drive.google.com/file/d/1mnncjeG1BWLPFc6q3oL3VzOIy6nkle12/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Circuit monophases</a>
-                  <h4>Chapitre 2</h4>
-                  <a href="https://drive.google.com/file/d/1dT2CuZ_4W7tSBNF1fkjL-JveYqKYOa2b/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases</a>
-                  <h4>Chapitre 3</h4>
-                  <a href="https://drive.google.com/file/d/1nk3Cv19Iq1LAf6L3xpuxVBna_r5FHZzj/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur</a>
-                  <h4>Chapitre 4 </h4>
-                  <a href="https://drive.google.com/file/d/1_VyKXmo-vjvZYKzZxkJ5M6s_laa4UtbS/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
-                  <h4>Chapitre 5</h4>
-                  <a href="https://docs.google.com/presentation/d/1JKZ71i_uw9anuoITledl9RYpRiPhJTUM/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Fonctions</a>
-                  <h4>Chapitre 6</h4>
-                  <a href="https://docs.google.com/presentation/d/1D3qGze-AOsL1mstjT2zx58a0O3FdXukE/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Structures</a>
+                  <a href="https://drive.google.com/file/d/1mnncjeG1BWLPFc6q3oL3VzOIy6nkle12/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Particule dans un potentiel scalaire et stationnaire</a>
+                </li>
+                <li>
+                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">les bases mathematiques de la mecanique quantique</a>
+                </li>
+                <li>
+                  <a href="https://drive.google.com/file/d/1I3OnkjmcKbXm508gkFb_AcRhXBfpEIYj/view?usp=sharing" target='_blank' rel="noopener noreferrer">Cour mecanique quantique complet</a>
                 </li>
               </ul>
             </div>
@@ -87,28 +82,19 @@ const Circuit = () => {
               <img src={tdimg} alt="TD" className="resource-icon" />
               <h2>TD</h2>
               <li>
-                <a href="https://drive.google.com/file/d/1eVXI1hVYSejBfyOgHb7dfaaEjaaiURea/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD1 : les systeme monophases</a>
+                <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD : Systeme a deux niveaux</a>
               </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1eVXI1hVYSejBfyOgHb7dfaaEjaaiURea/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD2 : les systeme triphases</a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/18zFB8N8p0dnceSwSERh1DNw7atiwCWoK/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD3 : transformateur monophases</a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1kZxkvG0CkXg5x2DqrNm0c39ndgh7oDSe/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD4 : Machine a courant continu</a>
-              </li>              
-              <li>
-                <a href="https://drive.google.com/file/d/1IBPVle9ZvdMV7subJUqC127cLOMJFx6D/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD5: Machines asychrones</a>
-              </li>   
+ 
             </div>
           </div>
 
           <div className="resource-card">
             <div className="card-content">
-              <img src={devoirsImg} alt="DS" className="resource-icon" />
+              <img src={devoirsImg} alt="DS" className="resource-icon" /> 
               <h2>DS</h2>
-              <li><a href="https://drive.google.com/file/d/1eLy5d_InC5xjR6Gr8Sx28_Kxh0HBbB_P/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 17-18</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 22-23</a> </li>
             </div>
           </div>
 
@@ -118,8 +104,9 @@ const Circuit = () => {
               <img src={examesImg} alt="Exams" className="resource-icon" />
               <h2>EXAMENS</h2>
               <ul className="resource-links">
-                <li><a href='https://drive.google.com/file/d/1tKPMA_osKbuCacpNuvaimFRUnwUo6Wek/view?usp=sharing'>Examen 21-22</a></li>
-                <li><a href='https://drive.google.com/file/d/1Rfsv7xoInYI_v4xiivIDtwNrQjd0rg6h/view?usp=sharing'>Examen 17-18</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 17-18</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 20-21</a></li>
+              <li><a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 22-23</a> </li>
               </ul>
             </div>
           </div>
@@ -129,4 +116,4 @@ const Circuit = () => {
   );
 };
 
-export default Circuit;
+export default quantique;

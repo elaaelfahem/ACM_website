@@ -11,7 +11,7 @@ const Navbar = () => {
       <img src={ACMlogo} alt="logoAcm" className="ACMlogo" />
 
       <div className="navbar-links">
-        <RouterLink to="/" className="desktopMenuListItem">Home</RouterLink>
+        <RouterLink to="/" className="desktopMenuListItem" ScrollLink>Home</RouterLink>
         <ScrollLink
           className="desktopMenuListItem"
           activeClass="active"

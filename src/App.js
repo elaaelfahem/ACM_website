@@ -15,6 +15,12 @@ import Proba from './1ere annee/S1/proba';
 import './1ere annee/S1/semi';
 import Semi from './1ere annee/S1/semi';
 import Mecanique from './1ere annee/S1/mecanique';
+import Communication from './1ere annee/S1/communication';
+import Gestion from './1ere annee/S1/gestion';
+import Circuit from './1ere annee/S1/circuit';
+import Metro from './1ere annee/S1/metro';
+import Anglais from './1ere annee/S1/anglais';
+import Comptabilite from './1ere annee/S1/comptabilite';
 
 function App() {
   return (
@@ -36,6 +42,12 @@ function App() {
           <Route path="/fluide" element={<Fluide/>}/>
           <Route path ="/semi"  element={<Semi/>}/>
           <Route path ="/mecanique"  element={<Mecanique/>}/>
+          <Route path ="/communication"  element={<Communication/>}/>
+          <Route path ="/gestion"  element={<Gestion/>}/>
+          <Route path ="/circuit"  element={<Circuit/>}/>
+          <Route path ="/metro"  element={<Metro/>}/>
+          <Route path ="/anglais"  element={<Anglais/>}/>
+          <Route path ="/comptabilite"  element={<Comptabilite/>}/>
         </Routes>
       </div>
     </Router>
