@@ -25,17 +25,14 @@ const Circuit = () => {
               <ul className="resource-links">
                 <li>
                   <h4>Chapitre 1</h4>
-                  <a href="https://drive.google.com/file/d/1mnncjeG1BWLPFc6q3oL3VzOIy6nkle12/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Circuit monophases</a>
+                  <a href="https://drive.google.com/file/d/1olCmXTWcENrr9BXtE4PoFLPLgeZt-BgU/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Circuit monophases</a>
                   <h4>Chapitre 2</h4>
-                  <a href="https://drive.google.com/file/d/1dT2CuZ_4W7tSBNF1fkjL-JveYqKYOa2b/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases</a>
+                  <a href="https://drive.google.com/file/d/1rX0BLRN3_DB36k3NR0M-kZD3iX0mVlCR/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases</a>
                   <h4>Chapitre 3</h4>
-                  <a href="https://drive.google.com/file/d/1nk3Cv19Iq1LAf6L3xpuxVBna_r5FHZzj/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur</a>
+                  <a href="https://drive.google.com/file/d/1zxZ4OahMOZfpMT0xS-i1tNUHQq5iAxNG/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur</a>
                   <h4>Chapitre 4 </h4>
-                  <a href="https://drive.google.com/file/d/1_VyKXmo-vjvZYKzZxkJ5M6s_laa4UtbS/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
-                  <h4>Chapitre 5</h4>
-                  <a href="https://docs.google.com/presentation/d/1JKZ71i_uw9anuoITledl9RYpRiPhJTUM/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Fonctions</a>
-                  <h4>Chapitre 6</h4>
-                  <a href="https://docs.google.com/presentation/d/1D3qGze-AOsL1mstjT2zx58a0O3FdXukE/edit?slide=id.p1#slide=id.p1" target='_blank' rel="noopener noreferrer">Les Structures</a>
+                  <a href="https://drive.google.com/file/d/1iMqvPfQl99y4GsiGGc4iz2ZkxnHx_uLb/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
+
                 </li>
               </ul>
             </div>
@@ -45,12 +42,12 @@ const Circuit = () => {
             <div className="card-content">
               <img src={summariesImg} alt="Summaries" className="resource-icon" />
               <h2>SUMMARIES</h2>
-                <a href="https://drive.google.com/file/d/1KdyVHlj170nzoGUoIQmTtO7jo_7Q_IfE/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme monophases</a>
-                <a href="https://drive.google.com/file/d/1Ga4Z650MvhB0Cl7xy9MFwcgDurqJmdjc/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 1)</a> 
-                <a href="https://drive.google.com/file/d/1xN-oF-IAOou3MlACD08fKWYCb5_gihIJ/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 2)</a>  
-                <a href="https://drive.google.com/file/d/1KdyVHlj170nzoGUoIQmTtO7jo_7Q_IfE/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur monophases</a> 
-                <a href="https://drive.google.com/file/d/1cyDX2lArMAJIiok5rNAKi8JYydCjq4i_/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
-                <a href="https://drive.google.com/file/d/1Qcch5v4KpLivSjuFDqEMoIH6FMemRBCX/view?usp=sharing" target='_blank' rel="noopener noreferrer">Moteur asychrone</a>
+                <a href="https://drive.google.com/file/d/1tBj9c8HDr13khwqrRTpurog6_k_1VkXS/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme monophases</a>
+                <a href="https://drive.google.com/file/d/1PNlVq-bT9cTm8m2llULqTD-a2Rg8Cua5/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 1)</a> 
+                <a href="https://drive.google.com/file/d/1kgVMBcXMQAqRdmQ3fzKsFXGpu6TZdcSe/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 2)</a>  
+                <a href="https://drive.google.com/file/d/1xKQh1UEgVt8gN7CUr1DqeCQZUS03UDhc/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur monophases</a> 
+                <a href="https://drive.google.com/file/d/1H5msEIVDhlNtVDih6j2sy6IFJZRSp6gG/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
+                <a href="https://drive.google.com/file/d/1Z6nT1P07bGPMR_SDlrGYpkOy70x_tLHQ/view?usp=sharing" target='_blank' rel="noopener noreferrer">Moteur asychrone</a>
                 </div>
           </div>
 
@@ -58,28 +55,10 @@ const Circuit = () => {
             <div className="card-content">
               <img src={exercicesImg} alt="TP" className="resource-icon" />
               <h2>TP</h2>
-              <li>
-                <h4>TP1</h4>
-                <a href ="https://drive.google.com/file/d/1neA0vNmEO3rAYIbj1nU1Vu_Er2X3cRsK/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp1 circuit 1</a>
-                <a href ="https://drive.google.com/file/d/1z4eAgMNhBv2nq_PJC9cisLaMdgkvPQfl/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp1 circuit 1</a>
-                <a href ="https://drive.google.com/file/d/1b_0xhHb05f0Xq_3DlUFDHa4bOJ7uCErA/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp1 circuit 2</a>
-                <a href ="https://drive.google.com/file/d/1lVVHKY7Suk-Wg18-4Wrxw7gaZQjWmQXm/view?usp=sharing" target='_blank' rel="noopener noreferrer">TP1 (exemple compte rendu)</a>
-              </li>   
-              <li>
-                <h4>TP2</h4>
-                <a href ="https://drive.google.com/file/d/1vu6lHta0G_BkJ_CwXm1RwVTjn0XN3_VW/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp2 version vierge</a>
-                <a href ="https://drive.google.com/file/d/1RqI1O2y0UBnKzTSuXncK8wKJ_RMITr_t/view?usp=sharing" target='_blank' rel="noopener noreferrer">TP2 (exemple compte rendu)</a>
-              </li>
-              <li>
-                <h4>TP3</h4>
-                <a href ="https://drive.google.com/file/d/1HVrlyi4h46CUsKvufNfGfluxelf5Y1sR/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp3 version vierge</a>
-              </li>
-              <li>
-                <h4>TP2</h4>
-                <a href ="https://drive.google.com/file/d/1TcOl19r2Z65gnPmuNBNwTBngLUxog698/view?usp=sharing" target='_blank' rel="noopener noreferrer">tp3 version vierge</a>
-                <a href ="https://drive.google.com/file/d/1DYnxPj886GYQFwCZafhFV00p5twn8rVp/view?usp=sharing" target='_blank' rel="noopener noreferrer">TP3 (exemple compte rendu)</a>
-              </li>
-            </div>
+              <ul className="resource-links">
+              <p className="coming-soon">Content coming soon</p>
+              </ul>
+             </div>
           </div>
 
           <div className="resource-card">
@@ -87,19 +66,19 @@ const Circuit = () => {
               <img src={tdimg} alt="TD" className="resource-icon" />
               <h2>TD</h2>
               <li>
-                <a href="https://drive.google.com/file/d/1eVXI1hVYSejBfyOgHb7dfaaEjaaiURea/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD1 : les systeme monophases</a>
+                <a href="https://drive.google.com/file/d/1ymnFRg0M2n_njbjYNQqE813soZ9WWM4v/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD1 : les systeme monophases</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1eVXI1hVYSejBfyOgHb7dfaaEjaaiURea/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD2 : les systeme triphases</a>
+                <a href="https://drive.google.com/file/d/1pG5--8Dscb9WrOpuXDZSq4sVzAfostfT/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD2 : les systeme triphases</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/18zFB8N8p0dnceSwSERh1DNw7atiwCWoK/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD3 : transformateur monophases</a>
+                <a href="https://drive.google.com/file/d/1pG5--8Dscb9WrOpuXDZSq4sVzAfostfT/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD3 : transformateur monophases</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1kZxkvG0CkXg5x2DqrNm0c39ndgh7oDSe/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD4 : Machine a courant continu</a>
+                <a href="https://drive.google.com/file/d/1vmBYmTzNa30RDXPWMq_YYeLPsSFRYDJw/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD4 : Machine a courant continu</a>
               </li>              
               <li>
-                <a href="https://drive.google.com/file/d/1IBPVle9ZvdMV7subJUqC127cLOMJFx6D/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD5: Machines asychrones</a>
+                <a href="https://drive.google.com/file/d/1T6VBbl_SUWIQb8ToizI9N98Aibf00Eot/view?usp=sharing" target='_blank' rel="noopener noreferrer">TD5: Machines asychrones</a>
               </li>   
             </div>
           </div>
@@ -108,7 +87,7 @@ const Circuit = () => {
             <div className="card-content">
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>DS</h2>
-              <li><a href="https://drive.google.com/file/d/1eLy5d_InC5xjR6Gr8Sx28_Kxh0HBbB_P/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
+              <li><a href="https://drive.google.com/file/d/1S_BXCRNZKGw2JltLx95fkNtWy466VOfk/view?usp=sharing" target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
             </div>
           </div>
 
@@ -118,8 +97,8 @@ const Circuit = () => {
               <img src={examesImg} alt="Exams" className="resource-icon" />
               <h2>EXAMENS</h2>
               <ul className="resource-links">
-                <li><a href='https://drive.google.com/file/d/1tKPMA_osKbuCacpNuvaimFRUnwUo6Wek/view?usp=sharing'>Examen 21-22</a></li>
-                <li><a href='https://drive.google.com/file/d/1Rfsv7xoInYI_v4xiivIDtwNrQjd0rg6h/view?usp=sharing'>Examen 17-18</a></li>
+                <li><a href='https://drive.google.com/file/d/1rWhr91gMhPpITCYlXgjmqMfLXFDZ8X57/view?usp=sharing'>Examen 21-22</a></li>
+                <li><a href='https://drive.google.com/file/d/1NuoJlhJcK9ET-2A_DpJvGEOZKOC-TT6b/view?usp=sharing'>Examen 17-18</a></li>
               </ul>
             </div>
           </div>
