@@ -42,12 +42,13 @@ const Circuit = () => {
             <div className="card-content">
               <img src={summariesImg} alt="Summaries" className="resource-icon" />
               <h2>SUMMARIES</h2>
-                <a href="https://drive.google.com/file/d/1tBj9c8HDr13khwqrRTpurog6_k_1VkXS/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme monophases</a>
-                <a href="https://drive.google.com/file/d/1PNlVq-bT9cTm8m2llULqTD-a2Rg8Cua5/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 1)</a> 
-                <a href="https://drive.google.com/file/d/1kgVMBcXMQAqRdmQ3fzKsFXGpu6TZdcSe/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 2)</a>  
-                <a href="https://drive.google.com/file/d/1xKQh1UEgVt8gN7CUr1DqeCQZUS03UDhc/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur monophases</a> 
-                <a href="https://drive.google.com/file/d/1H5msEIVDhlNtVDih6j2sy6IFJZRSp6gG/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a>
-                <a href="https://drive.google.com/file/d/1Z6nT1P07bGPMR_SDlrGYpkOy70x_tLHQ/view?usp=sharing" target='_blank' rel="noopener noreferrer">Moteur asychrone</a>
+              <li>
+                <a href="https://drive.google.com/file/d/1tBj9c8HDr13khwqrRTpurog6_k_1VkXS/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme monophases</a></li>
+              <li><a href="https://drive.google.com/file/d/1PNlVq-bT9cTm8m2llULqTD-a2Rg8Cua5/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 1)</a> </li> 
+              <li><a href="https://drive.google.com/file/d/1kgVMBcXMQAqRdmQ3fzKsFXGpu6TZdcSe/view?usp=sharing" target='_blank' rel="noopener noreferrer">Systeme triphases(resume 2)</a>  </li>
+              <li><a href="https://drive.google.com/file/d/1xKQh1UEgVt8gN7CUr1DqeCQZUS03UDhc/view?usp=sharing" target='_blank' rel="noopener noreferrer">Transformateur monophases</a> </li>
+               <li> <a href="https://drive.google.com/file/d/1H5msEIVDhlNtVDih6j2sy6IFJZRSp6gG/view?usp=sharing" target='_blank' rel="noopener noreferrer">Machine a courant continu</a></li>
+               <li> <a href="https://drive.google.com/file/d/1Z6nT1P07bGPMR_SDlrGYpkOy70x_tLHQ/view?usp=sharing" target='_blank' rel="noopener noreferrer">Moteur asychrone</a></li>
                 </div>
           </div>
 

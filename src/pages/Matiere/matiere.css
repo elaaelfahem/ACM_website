@@ -6,6 +6,12 @@
   padding: 40px 0;
   position: relative;
 }
+h4{
+  font-family: 'Arial', sans-serif;
+  color: #62686f;
+  font-weight: 600;
+
+}
 
 .archive-section::before {
   content: '';
