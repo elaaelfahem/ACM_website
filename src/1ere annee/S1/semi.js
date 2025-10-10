@@ -25,24 +25,24 @@ const Semi = () => {
               <ul className="resource-links">
                  <li>
                   <h4>Chapitre 1</h4>
-                  <a href="https://drive.google.com/file/d/1_FkZrkSxkPKMxGH4mVJpbbo3mKV2G67_/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Physiques des semi-conducteurs et des composants</a>
+                  <a href="https://drive.google.com/file/d/1gDtcyq7mwPG3X-m9UW2qmIUS8IdqrZmF/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Physiques des semi-conducteurs et des composants</a>
                 </li>
                 <li>
                   <h4>Chapitre 2</h4>
-                  <a href="https://drive.google.com/file/d/1qHwrA8wwAU51HcKX0CD3N7Pvn6bfJdTm/view?usp=sharing" target='_blank' rel="noopener noreferrer">Semi-conducteurs en Equilibre</a>
+                  <a href="https://drive.google.com/file/d/1gDtcyq7mwPG3X-m9UW2qmIUS8IdqrZmF/view?usp=sharing" target='_blank' rel="noopener noreferrer">Semi-conducteurs en Equilibre</a>
                 </li>
 
                 <li>
                   <h4>Chapitre 3</h4>
-                  <a href="https://drive.google.com/file/d/173JHZKyotqIzrJ62TndMAM778gId8xNW/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Jonction PN</a>
+                  <a href="https://drive.google.com/file/d/1KEO2IzF0yoFxS5XjHIThnVltx2AZ3dVL/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Jonction PN</a>
                 </li>
                 <li>
                   <h4>Chapitre 4</h4>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">Mechanisme de conduction dans les semi-connducteurs</a>
+                  <a href="https://drive.google.com/file/d/1v9-CknMljGKf75M7LTbDkcuqoclxpE6_/view?usp=sharing" target='_blank' rel="noopener noreferrer">Mechanisme de conduction dans les semi-connducteurs</a>
                 </li>
                 <li>
                   <h4>Chapitre 5</h4>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">Contact entre deuc materiaux</a>
+                  <a href="https://drive.google.com/file/d/1pve9VXjp2f-iiz8yNURT1RnSw2dCF9Sx/view?usp=sharing" target='_blank' rel="noopener noreferrer">Contact entre deuc materiaux</a>
                 </li>
                 <li>
                   <h4>Chapitre </h4>
@@ -70,9 +70,9 @@ const Semi = () => {
               <img src={summariesImg} alt="Summaries" className="resource-icon" />
               <h2>SUMMARIES</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 1</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 2</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 3</a></li>
+              <li><a href='https://drive.google.com/file/d/1FiLBqoI7UgHolFi91BGJ49hE9rvKuhgy/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 1</a></li>
+              <li><a href='https://drive.google.com/file/d/1n3VnSJCmvvFfbG8gfUoHYbFgxWCTBGbm/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 2</a></li>
+              <li><a href='https://drive.google.com/file/d/1961ib9retz2XOLp7ZDk5hh08Iv6mR_Wa/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume 3</a></li>
               </ul>
             </div>
           </div>
@@ -81,29 +81,12 @@ const Semi = () => {
             <div className="card-content">
               <img src={exercicesImg} alt="TP" className="resource-icon" />
               <h2>TP</h2>
-              <li>
-                <h4>Tp1</h4>
-                <a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">tp1(exemple compte rendu)</a>
-                <a href='https://drive.google.com/drive/u/1/folders/1W_9AptsQhsIBIU110DBAf77U8-O3kjg8' target='_blank' rel="noopener noreferrer">photos</a>
-              </li>
-              <li>
-                <h4>Tp2</h4>
-                <a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">tp2(exemple compte rendu)</a>
-                <a href='https://docs.google.com/document/d/1vW-MzufKUy9hBXWqxjIroCpK2U71PFzE/edit' target='_blank' rel="noopener noreferrer">les courbes</a>
-                <a href='https://docs.google.com/document/d/1kZPRww7dzhctStyTXuIfbtUSefUC4L4C/edit?rtpof=true&tab=t.0' target='_blank' rel="noopener noreferrer">les tableaux</a>
-                <a href='https://drive.google.com/drive/u/1/folders/1kcQua7RKZnvb0HnEVbpEOUBzI9-9Yw97' target='_blank' rel="noopener noreferrer">photos</a>
-              </li>
-              <li>
-                <h4>Tp3</h4>
-                <a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">tp3(exemple compte rendu)</a>
-                <a href='https://docs.google.com/document/d/13ASdXbB1D_U46pREAg1B3jGTEwQrbTdG/edit' target='_blank' rel="noopener noreferrer">photos</a>
-                <a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">photos</a>
-                <a href='https://docs.google.com/document/d/1UnltFbTyAAxgincVRq0WTl5HJLoNeUGO/edit' target='_blank' rel="noopener noreferrer">photos</a>
-                <a href='https://docs.google.com/document/d/1wooYF8-B8RwR5BdE_kvOxg40-VeMaXA2/edit' target='_blank' rel="noopener noreferrer">photos</a>
-              </li>         
+              <ul className="resource-links">
+                 <p className="coming-soon">Content coming soon</p>
+              </ul>
             </div>
           </div>
-            </div>
+          </div>
           </div>
 
           <div className="resource-card">
@@ -111,10 +94,10 @@ const Semi = () => {
               <img src={tdimg} alt="TD" className="resource-icon" />
               <h2>TD</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td1</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td2</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td3</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td4</a></li>
+              <li><a href='https://drive.google.com/file/d/1n3VnSJCmvvFfbG8gfUoHYbFgxWCTBGbm/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td1</a></li>
+              <li><a href='https://drive.google.com/file/d/1LZphF1fc1APwTIPbgxTuYOVecQRoLsBG/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td2</a></li>
+              <li><a href='https://drive.google.com/file/d/1XKYO-Io-2t2lLgckIZwnsygv18rpC58s/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td3</a></li>
+              <li><a href='https://drive.google.com/file/d/1D5ht-t-HhHe6nHL8kztAOQwAx7JdXXze/view?usp=sharing' target='_blank' rel="noopener noreferrer">Td4</a></li>
             </ul>
             </div>
           </div>
@@ -124,9 +107,9 @@ const Semi = () => {
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>DS</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 15-16</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 20-21</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
+              <li><a href='https://drive.google.com/file/d/1UtCWgfc4uwxCfevETrF5_xeTObSlXPZv/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 15-16</a></li>
+              <li><a href='https://drive.google.com/file/d/17hgHUuZU5fIK3mOivW2DU_WhdYbRgD6W/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 20-21</a></li>
+              <li><a href='https://drive.google.com/file/d/1fLcoK2_kAjAr08Jn8M7-M80rHdjQvM24/view?usp=sharing' target='_blank' rel="noopener noreferrer">DS 21-22</a></li>
               </ul>
             </div>
           </div>
@@ -136,12 +119,12 @@ const Semi = () => {
               <img src={examesImg} alt="Exams" className="resource-icon" />
               <h2>EXAMENS</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 15-16</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 16-17</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 17-18</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 19-20</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 20-21</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 21-22</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 15-16</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 16-17</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 17-18</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 19-20</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 20-21</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 21-22</a></li>
 
               </ul>
             </div>
