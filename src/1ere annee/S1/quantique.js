@@ -24,10 +24,10 @@ const quantique = () => {
               <h2>COURSES</h2>
               <ul className="resource-links">
                 <li>
-                  <a href="https://drive.google.com/file/d/1mnncjeG1BWLPFc6q3oL3VzOIy6nkle12/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Particule dans un potentiel scalaire et stationnaire</a>
+                  <a href="https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing"  target='_blank' rel="noopener noreferrer">Particule dans un potentiel scalaire et stationnaire</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">les bases mathematiques de la mecanique quantique</a>
+                  <a href="https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing" target='_blank' rel="noopener noreferrer">les bases mathematiques de la mecanique quantique</a>
                 </li>
                 <li>
                   <a href="https://drive.google.com/file/d/1I3OnkjmcKbXm508gkFb_AcRhXBfpEIYj/view?usp=sharing" target='_blank' rel="noopener noreferrer">Cour mecanique quantique complet</a>

@@ -24,13 +24,13 @@ const Metro  = () => {
               <h2>COURSES</h2>
               <ul className="resource-links">
                  <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Introduction generale</a>
+                  <a href="https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Introduction generale</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">Qualite</a>
+                  <a href="https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing" target='_blank' rel="noopener noreferrer">Qualite</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target='_blank' rel="noopener noreferrer">Erreur</a>
+                  <a href="https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing" target='_blank' rel="noopener noreferrer">Erreur</a>
                 </li>
               </ul>
             </div>
@@ -41,7 +41,7 @@ const Metro  = () => {
               <img src={summariesImg} alt="Summaries" className="resource-icon" />
               <h2>SUMMARIES</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">resume</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">resume</a></li>
               </ul>
             </div>
           </div>
@@ -50,8 +50,9 @@ const Metro  = () => {
             <div className="card-content">
               <img src={exercicesImg} alt="TP" className="resource-icon" />
               <h2>TP</h2>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TP1(exemple compte rendu)</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TP2(exemple compte rendu)</a></li>
+            <ul className="resource-links">
+              <p className="coming-soon">Content coming soon</p>
+              </ul>
             </div>
           </div>
 
@@ -60,7 +61,7 @@ const Metro  = () => {
               <img src={tdimg} alt="TD" className="resource-icon" />
               <h2>TD</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1</a></li>
               </ul>
               
             </div>
@@ -71,8 +72,7 @@ const Metro  = () => {
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>DS</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 19-20</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 20-21</a></li>
+              <li><a href='https://drive.google.com/file/d/188vzU2wXH9eNR26Kp8395-1oLEf5M_Pl/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 20-21</a></li>
               </ul>
             </div>
           </div>
