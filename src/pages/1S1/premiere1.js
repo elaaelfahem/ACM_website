@@ -30,7 +30,7 @@ const FirstSemester = () => {
           <h2 className="course-title">SC.DE L'ING</h2>
           <img src={phy} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Physique pour l’ingénieur</Link></li>
+            <li><Link to="/quantique">Physique pour l’ingénieur</Link></li>
             <li><Link to="/fluide">Mecanique des fluides</Link></li>
             <li><Link to="/semi">Semi conducteurs</Link></li>
           </ul>
