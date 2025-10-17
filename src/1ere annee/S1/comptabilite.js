@@ -27,19 +27,19 @@ const Comptabilite  = () => {
                   <a href="https://drive.google.com/file/d/1Y0K7A6zYSE7GwUF0DC0mSLTo0pbdGpmH/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Comptabilite generale</a>
                 </li>
                  <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Presnetation de la Comptabilite generale</a>
+                  <a href="https://drive.google.com/file/d/1ZzCi9szMsd0ejOJFBuPTguOR56DM_Fte/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Presnetation de la Comptabilite generale</a>
                 </li>
                  <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">le Bilan</a>
+                  <a href="https://drive.google.com/file/d/1OIcKmJbLMibXlPB5sfSX_UcET84NtPbt/view?usp=sharing" target ='_blank' rel="noopener noreferrer">le Bilan</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Les livres comptables</a>
+                  <a href="https://drive.google.com/file/d/11NarfJ6pIzeQmt9UNA_oXNXaegdv97o4/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Les livres comptables</a>
                 </li>
                 <li>
                   <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Enregistrement comptables des factures</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Modalite de l'enregistrement de la TVA</a>
+                  <a href="https://drive.google.com/file/d/11NarfJ6pIzeQmt9UNA_oXNXaegdv97o4/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Modalite de l'enregistrement de la TVA</a>
                 </li>
              </ul>
             </div>

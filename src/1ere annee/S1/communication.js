@@ -46,7 +46,7 @@ const Communication  = () => {
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>DS</h2>
               <ul className="resource-links">
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Comment eviter les conflits</a>
+                  <a href="https://drive.google.com/file/d/18oU2Mkkz9cEbL-1WRrsiKo_lLfvbvQWx/view?usp=sharing" target ='_blank' rel="noopener noreferrer">DS 21-22</a>
               </ul>
             </div>
           </div>

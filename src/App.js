@@ -21,8 +21,7 @@ import Circuit from './1ere annee/S1/circuit';
 import Metro from './1ere annee/S1/metro';
 import Anglais from './1ere annee/S1/anglais';
 import Comptabilite from './1ere annee/S1/comptabilite';
-import quantique from './1ere annee/S1/quantique';
-
+import Quantique from './1ere annee/S1/quantique';
 function App() {
   return (
     <Router>
@@ -49,7 +48,7 @@ function App() {
           <Route path ="/metro"  element={<Metro/>}/>
           <Route path ="/anglais"  element={<Anglais/>}/>
           <Route path ="/comptabilite"  element={<Comptabilite/>}/>
-          <Route path ="/quantique"  element={<quantique/>}/>
+          <Route path ="/quantique"  element={<Quantique/>}/>
         </Routes>
       </div>
     </Router>

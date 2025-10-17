@@ -21,10 +21,10 @@ const Gestion  = () => {
               <h2>COURSES</h2>
               <ul className="resource-links">
                  <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Chapitre 1+2</a>
+                  <a href="https://drive.google.com/file/d/1IQbuiCEAFgQtpB1xfNWh3QKtkcSsZJE2/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Chapitre 1+2</a>
                 </li>
                  <li>
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Chapitre 3</a>
+                  <a href="https://drive.google.com/file/d/10vTjHOMEEbYxBNtBS5LixXhHVVjm-G3z/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Chapitre 3</a>
                 </li>
               </ul>
             </div>
@@ -45,7 +45,7 @@ const Gestion  = () => {
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>Summaries</h2>
               <ul className="resource-links">
-                  <a href="https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Resume</a>
+                  <a href="https://drive.google.com/file/d/1esnJm0B5wkCOU9ei5XoWeN7Xa9v--cXy/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Resume</a>
               </ul>
             </div>
           </div>

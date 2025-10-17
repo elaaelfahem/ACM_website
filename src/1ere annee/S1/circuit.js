@@ -98,8 +98,8 @@ const Circuit = () => {
               <img src={examesImg} alt="Exams" className="resource-icon" />
               <h2>EXAMENS</h2>
               <ul className="resource-links">
-                <li><a href='https://drive.google.com/file/d/1rWhr91gMhPpITCYlXgjmqMfLXFDZ8X57/view?usp=sharing'>Examen 21-22</a></li>
-                <li><a href='https://drive.google.com/file/d/1NuoJlhJcK9ET-2A_DpJvGEOZKOC-TT6b/view?usp=sharing'>Examen 17-18</a></li>
+                <li><a href='https://drive.google.com/file/d/1rWhr91gMhPpITCYlXgjmqMfLXFDZ8X57/view?usp=sharing'target='_blank' rel="noopener noreferrer">Examen 21-22</a></li>
+                <li><a href='https://drive.google.com/file/d/1NuoJlhJcK9ET-2A_DpJvGEOZKOC-TT6b/view?usp=sharing' target='_blank' rel="noopener noreferrer">Examen 17-18</a></li>
               </ul>
             </div>
           </div>

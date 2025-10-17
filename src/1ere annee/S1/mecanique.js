@@ -58,10 +58,10 @@ const Mecaniquue  = () => {
               <img src={tdimg} alt="TD" className="resource-icon" />
               <h2>TD</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1(correction)</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD2</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD2(correction)</a></li>
+              <li><a href='https://drive.google.com/file/d/1w-GVJkUi0ovqVYCWNFl_nwiiUvGKc72E/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1</a></li>
+              <li><a href='https://drive.google.com/file/d/1i8Hfo4zQnjKALjgNAFT4sAdLfAEmDn59/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD1(correction)</a></li>
+              <li><a href='https://drive.google.com/file/d/1dnVJ6s2yE8pmDBoQFZMac34fyr1dcHkq/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD2</a></li>
+              <li><a href='https://drive.google.com/file/d/1p8gDVv3fqyu-VUPivKytY0_2o9acg370/view?usp=sharing' target='_blank' rel="noopener noreferrer">TD2(correction)</a></li>
               </ul>
             </div>
           </div>
@@ -71,8 +71,8 @@ const Mecaniquue  = () => {
               <img src={devoirsImg} alt="DS" className="resource-icon" />
               <h2>DS</h2>
               <ul className="resource-links">
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 19-20</a></li>
-              <li><a href='https://drive.google.com/file/d/1HvD__22KnH06pjZdTkK82We8JkMS_Hmz/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 20-21</a></li>
+              <li><a href='https://drive.google.com/file/d/1I3FEr2YUpa6v6nJfkfrdF7CVVGqIGxRc/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 19-20</a></li>
+              <li><a href='https://drive.google.com/file/d/12FQAfWCrCiHVqOND7G-J_fXWRK0zu_aY/view?usp=sharing' target='_blank' rel="noopener noreferrer">ds 20-21</a></li>
               </ul>
             </div>
           </div>

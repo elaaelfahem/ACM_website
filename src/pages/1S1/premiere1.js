@@ -30,7 +30,7 @@ const FirstSemester = () => {
           <h2 className="course-title">SC.DE L'ING</h2>
           <img src={phy} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/quantique">Physique pour l’ingénieur</Link></li>
+            <li><Link to="/quantique ">Physique pour l’ingénieur</Link></li>
             <li><Link to="/fluide">Mecanique des fluides</Link></li>
             <li><Link to="/semi">Semi conducteurs</Link></li>
           </ul>
@@ -50,7 +50,7 @@ const FirstSemester = () => {
           <h2 className="course-title">SOC.ECO</h2> 
           <img src={tech} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <Link to="/matiere"><li>Anglais 1</li></Link>
+            <Link to="/anglais"><li>Anglais 1</li></Link>
             <Link to="/comptabilite"><li>Comptabilite</li></Link>
             <Link to="/gestion"><li>Gestion d'entreprise</li></Link>
             <Link to="/communication"><li>Techniques de communication</li></Link>
