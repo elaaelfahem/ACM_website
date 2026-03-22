@@ -43,7 +43,6 @@ Thumbs.db
 # Datasets and large files
 *.zip
 *.arrow
-*.json
 *.txt
 *.csv
 *.h5

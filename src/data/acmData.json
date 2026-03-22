@@ -1,0 +1,78 @@
+{
+  "members": [
+    { "handle": "tourist", "name": "Gennady K.", "xp": 12500 },
+    { "handle": "Benq", "name": "Benjamin", "xp": 9400 },
+    { "handle": "Radewoosh", "name": "Michal", "xp": 8200 },
+    { "handle": "jiangly", "name": "Jiang L.", "xp": 15000 },
+    { "handle": "Petr", "name": "Petr M.", "xp": 7100 }
+  ],
+  "coderOfTheMonth": {
+    "name": "Ahmed Ben Ali",
+    "track": "AI & Competetive Programming",
+    "reason": "Built a custom CNN model and reached Specialist on Codeforces!",
+    "avatar": "👨‍💻"
+  },
+  "calendar": [
+    {
+      "id": 1,
+      "title": "ENSTAB Codeforces Round #1",
+      "date": "Oct 15, 2026",
+      "type": "Competition"
+    },
+    {
+      "id": 2,
+      "title": "Global AI Hackathon",
+      "date": "Nov 2, 2026",
+      "type": "Hackathon"
+    },
+    {
+      "id": 3,
+      "title": "Web Dev React Challenge",
+      "date": "Nov 10, 2026",
+      "type": "Project Deadline"
+    }
+  ],
+  "workshops": [
+    {
+      "id": 1,
+      "title": "Intro to Dynamic Programming",
+      "date": "Coming soon",
+      "mentor": "ACM Algorithms Team",
+      "type": "Problem Solving"
+    },
+    {
+      "id": 2,
+      "title": "React JS Fundamentals",
+      "date": "Coming soon",
+      "mentor": "ACM Web Dev Team",
+      "type": "Web Development"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning from Scratch",
+      "date": "Coming soon",
+      "mentor": "ACM AI Team",
+      "type": "AI"
+    }
+  ],
+  "problemSheets": [
+    {
+      "id": 1,
+      "title": "Week 1: Arrays & Sorting",
+      "difficulty": "Div 2 A",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Week 2: Greedy Algorithms",
+      "difficulty": "Div 2 B",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Week 3: Number Theory",
+      "difficulty": "Div 2 C",
+      "link": "#"
+    }
+  ]
+}
