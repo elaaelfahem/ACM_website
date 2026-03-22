@@ -14,7 +14,7 @@ const CodingHub = () => {
   const userName = auth.currentUser?.displayName?.split(' ')[0] || 'Challenger';
 
   // Firestore Data States
-  const [members, setMembers] = useState([]);
+
   const [events, setEvents] = useState([]);
   const [problemSheets, setProblemSheets] = useState([]);
   const [spotlight, setSpotlight] = useState(null);
@@ -49,7 +49,7 @@ const CodingHub = () => {
         // 4. Fetch Member Stats & Codeforces Leaderboard
         const statsSnap = await getDocs(collection(db, 'member_stats'));
         const memberList = statsSnap.docs.map(d => d.data());
-        setMembers(memberList);
+
 
         if (memberList.length > 0) {
           const handlesStr = memberList.map(m => m.handle).join(';');
