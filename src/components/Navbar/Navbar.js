@@ -1,17 +1,21 @@
 import './Navbar.css';
-import React from 'react';
-import { Link as RouterLink } from 'react-router-dom'; // only for Home
-import { Link as ScrollLink } from 'react-scroll';     // for section
+import React, { useState } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import ACMlogo from '../../assets/blanc.png';
 import Enstab from '../../assets/enstablanc.png';
+import Search from '../Search/Search';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <img src={ACMlogo} alt="logoAcm" className="ACMlogo" />
 
-      <div className="navbar-links">
-        <RouterLink to="/" className="desktopMenuListItem" ScrollLink>Home</RouterLink>
+      {/* Desktop Links */}
+      <div className={`navbar-links ${menuOpen ? 'mobile-open' : ''}`}>
+        <RouterLink to="/" className="desktopMenuListItem" onClick={() => setMenuOpen(false)}>Home</RouterLink>
         <ScrollLink
           className="desktopMenuListItem"
           activeClass="active"
@@ -20,10 +24,10 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          onClick={() => setMenuOpen(false)}
         >
           About Us
         </ScrollLink>
-
         <ScrollLink
           className="desktopMenuListItem"
           activeClass="active"
@@ -32,10 +36,10 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          onClick={() => setMenuOpen(false)}
         >
           Feedback
         </ScrollLink>
-
         <ScrollLink
           className="desktopMenuListItem"
           activeClass="active"
@@ -44,20 +48,26 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          onClick={() => setMenuOpen(false)}
         >
           Contact
         </ScrollLink>
       </div>
 
+      {/* Right side: Search + Logo */}
+      <div className="navbar-right">
+        <Search />
+        <img src={Enstab} alt="logoenstab" className="logo" />
+      </div>
 
-
-      <img src={Enstab} alt="logoenstab" className="logo" />
+      {/* Hamburger button (mobile) */}
+      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <span className={`ham-line ${menuOpen ? 'open' : ''}`}></span>
+        <span className={`ham-line ${menuOpen ? 'open' : ''}`}></span>
+        <span className={`ham-line ${menuOpen ? 'open' : ''}`}></span>
+      </button>
     </nav>
   );
 };
 
 export default Navbar;
-/*      <div className="search">
-        <input placeholder="Search..." type="text" />
-        <button type="submit">Go</button>
-      </div>*/

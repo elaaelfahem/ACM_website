@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  background: rgba(30, 30, 30, 0.85); /* Dark semi-transparent matching the vibe */
+  backdrop-filter: blur(10px);
+  padding: 60px 50px;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.login-card h2 {
+  margin-top: 0;
+  color: #f1f1f1;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.login-card p {
+  color: #cccccc;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.google-sign-in-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.google-sign-in-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.google-sign-in-btn:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+  background-color: rgba(255, 77, 77, 0.1);
+  color: #ff4d4d;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  border: 1px solid rgba(255, 77, 77, 0.3);
+}
+
+.login-note {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #888;
+}

@@ -1,0 +1,71 @@
+/* =============================
+   DARK MODE CSS VARIABLES
+   ============================= */
+
+/* Light mode (default) - uses existing styling */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .DESCRIPTION {
+  background-image: none !important;
+  background-color: #181818;
+}
+
+body.dark-mode .sos-feature {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+body.dark-mode .sos-feature-title,
+body.dark-mode .title {
+  color: #f0f0f0;
+}
+
+body.dark-mode .sos-feature-description,
+body.dark-mode .sos-subtitle {
+  color: #aaa;
+}
+
+body.dark-mode .contact-section {
+  background: linear-gradient(135deg, #181818 0%, #1e1e1e 100%);
+}
+
+body.dark-mode .contact-grid {
+  background: #242424;
+  border: 1px solid #333;
+}
+
+body.dark-mode .contact-title { color: #f0f0f0; }
+
+body.dark-mode .contact-info p {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode .contact-info p:hover {
+  background-color: #3a1a1a;
+}
+
+body.dark-mode .acm-description p,
+body.dark-mode .acm-title {
+  color: #e0e0e0;
+}
+
+/* =============================
+   PAGE TRANSITION ANIMATION
+   ============================= */
+.page-transition {
+  animation: pageFadeIn 0.4s ease forwards;
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

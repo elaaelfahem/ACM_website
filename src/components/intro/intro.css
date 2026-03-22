@@ -1,107 +1,184 @@
 .intro {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Changed from center to flex-start */
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  height: calc(100vh - 4rem);
-  width: 100vw;
-  padding: 3rem;
-  padding-top: 2rem;
+  height: calc(100vh - 5rem);
+  width: 100%;
+  padding: 0 8%;
   background-size: cover;
   background-position: center;
   overflow: hidden;
   position: relative;
-  text-align: center;
+  gap: 4rem;
 }
 
+/* Left text block */
 .intoacm {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   gap: 1.5rem;
   color: black;
   z-index: 1;
+  max-width: 580px;
 }
 
 .hello {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
+  opacity: 0;
+  animation: fadeSlideDown 0.7s ease forwards 0.1s;
 }
 
 .Introtext {
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.1;
+  opacity: 0;
+  animation: fadeSlideUp 0.7s ease forwards 0.25s;
 }
 
 .sosacm {
   color: #e50303;
+  display: inline-block;
+  animation: shimmerText 3s ease infinite 1s;
+  background: linear-gradient(90deg, #e50303 40%, #ff6b6b 60%, #e50303 80%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes shimmerText {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
 }
 
 .Introtext2 {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  color: #555;
+  opacity: 0;
+  animation: fadeSlideUp 0.7s ease forwards 0.4s;
 }
 
+/* Button group */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeSlideUp 0.7s ease forwards 0.55s;
+}
+
+/* Button base */
 .btn {
   background: white;
   color: #e50303;
   border: 2px solid #e50303;
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.8rem;
   border-radius: 2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-right: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
 }
 
 .btn:hover {
   background: #e50303;
   color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(229, 3, 3, 0.35);
 }
 
+/* Primary filled variant */
+.btn-primary {
+  background: #e50303;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #cc0000;
+  color: white;
+  box-shadow: 0 8px 24px rgba(229, 3, 3, 0.5);
+}
+
+/* Floating hero image */
 .introimg {
   flex: 1;
-  max-height: 100%;
-  max-width: 100%;
+  width: 100%;
+  max-height: 75%;
+  max-width: 44%;
   object-fit: contain;
   z-index: 1;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideLeft 0.9s ease forwards 0.3s;
+  /* Nudge down a bit to visually align with text center-of-gravity */
+  position: relative;
+  top: 30px;
 }
 
-@media screen and (max-width: 840px) {
+.floating-img {
+  animation: fadeSlideLeft 0.9s ease forwards 0.3s, floatUp 4s ease-in-out infinite 1.5s;
+}
+
+/* Entrance Keyframes */
+@keyframes fadeSlideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideLeft {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes floatUp {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-14px); }
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
   .intro {
     flex-direction: column;
-    padding: 2rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 2rem;
+    gap: 2rem;
   }
 
   .intoacm {
-    width: 100%;
     align-items: center;
+    max-width: 100%;
   }
 
   .introimg {
-    width: 80%;
-    margin-top: 2rem;
+    max-width: 65%;
   }
 
   .Introtext {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   .hello {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
-
-  .Introtext2 {
-    font-size: 0.9rem;
-  }
-}
-.btn:hover {
-    background: red;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

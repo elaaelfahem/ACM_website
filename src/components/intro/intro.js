@@ -15,20 +15,19 @@ const Intro = () => {
             }}
         >
             <div className="intoacm">
-                <span className="hello">Hello,</span>
+                <span className="hello animate-fade-down">Hello,</span>
                 <span className="Introtext">
                     Welcome to <br /><span className="sosacm">SOS ACM</span>
                 </span>
                 <p className="Introtext2">Created by the ACM Club to empower ENSTAB students.</p>
-                <div>
+                <div className="btn-group">
                 <Link to="/enstaArchive" className="btn-link"><button className="btn">EnstArchive</button></Link>
-                <Link to="/codinghub" className="btn-link"><button className="btn">ACM Coding Hub</button></Link>
+                <Link to="/codinghub" className="btn-link"><button className="btn btn-primary">ACM Coding Hub</button></Link>
                 </div>
             </div>
-            <img src={introimg} alt="imageintro" className="introimg" />
+            <img src={introimg} alt="imageintro" className="introimg floating-img" data-aos="fade-left" data-aos-duration="900" data-aos-delay="100" />
         </section>
     );
 };
 
-export default Intro;
-/**/
+export default Intro;

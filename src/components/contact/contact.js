@@ -5,10 +5,10 @@ const Contact = () => {
     
     <section className="contact-section">
       <div className="contact-container">
-        <h1 className="contact-title">Contact ACM</h1>
-        <p className="contact-subtitle">Get in touch with us.</p>
+        <h1 className="contact-title" data-aos="fade-down">Contact ACM</h1>
+        <p className="contact-subtitle" data-aos="fade-down" data-aos-delay="100">Get in touch with us.</p>
 
-        <div className="contact-grid">
+        <div className="contact-grid" data-aos="fade-up" data-aos-delay="150">
         <div className="contact-info">
             <p><a href="mailto:acm@enstab.ucar.tn">acm@enstab.ucar.tn</a></p>
             <p><a href="https://www.facebook.com/acmenstab" target="_blank" rel="noreferrer">Facebook</a></p>
@@ -35,3 +35,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

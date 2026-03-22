@@ -19,9 +19,9 @@ const SecondSemester = () => {
           <h2 className="course-title">MATH-INFO 2</h2>
           <img src={math} alt="math" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Analyse numerique</Link></li>
-            <li><Link to="/matiere">Optimisation</Link></li>
-            <li><Link to="/matiere">Stastistique pour l’ingénieur</Link></li>
+            <li><Link to="/matiere/analyse_numerique">Analyse numerique</Link></li>
+            <li><Link to="/matiere/optimisation">Optimisation</Link></li>
+            <li><Link to="/matiere/statistique">Stastistique pour l’ingénieur</Link></li>
           </ul>
         </div>
         <div className="course-cards">
@@ -29,9 +29,9 @@ const SecondSemester = () => {
           <h2 className="course-title">Outils digitaux pourl'ingénieur 1</h2>
           <img src={math} alt="math" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Introduction a L'IA</Link></li>
-            <li><Link to="/matiere">POO</Link></li>
-            <li><Link to="/matiere">CATIA</Link></li>
+            <li><Link to="/matiere/ia">Introduction a L'IA</Link></li>
+            <li><Link to="/matiere/poo">POO</Link></li>
+            <li><Link to="/matiere/catia">CATIA</Link></li>
           </ul>
         </div>
 
@@ -39,9 +39,9 @@ const SecondSemester = () => {
           <h2 className="course-title">SC.DE L'ING 2</h2>
           <img src={phy} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Thermodynamique pour l’ingénieur</Link></li>
-            <li><Link to="/matiere">Electronique des composants</Link></li>
-            <li><Link to="/matiere">Asservissement et regulation industriels</Link></li>
+            <li><Link to="/matiere/thermodynamique">Thermodynamique pour l’ingénieur</Link></li>
+            <li><Link to="/matiere/electronique_composants">Electronique des composants</Link></li>
+            <li><Link to="/matiere/asservissement">Asservissement et regulation industriels</Link></li>
           </ul>
         </div>
 
@@ -49,10 +49,10 @@ const SecondSemester = () => {
           <h2 className="course-title">SOC.ECO 2</h2>
           <img src={tech} alt="phy" className="course-icon" />
           <ul className="course-topics">
-            <Link to="/matiere"><li>Anglais 2</li></Link>
-            <Link to="/matiere"><li>Droit</li></Link>
-            <Link to="/matiere"><li>Philo pour l’ingénieur</li></Link>
-            <Link to="/matiere"><li>Economie verte</li></Link>
+            <Link to="/matiere/anglais"><li>Anglais 2</li></Link>
+            <Link to="/matiere/droit"><li>Droit</li></Link>
+            <Link to="/matiere/philo"><li>Philo pour l’ingénieur</li></Link>
+            <Link to="/matiere/economie_verte"><li>Economie verte</li></Link>
           </ul>
         </div>
       </div>
